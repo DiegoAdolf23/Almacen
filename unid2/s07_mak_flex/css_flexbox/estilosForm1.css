@@ -1,0 +1,22 @@
+ 
+ .contenedor1{
+    background-color: aqua;
+    display: flex;
+    flex-flow:row wrap ;
+ }
+ .contenedor1 div{background-color: rgb(224, 140, 140); margin: 10px 5px; padding: 5px;width: 50px;}
+
+ .contenedor2{
+    background-color: rgb(37, 2, 2);
+    display: flex;
+    flex-flow: row wrap;
+ }
+ .contenedor2 div{background-color: rgba(144, 201, 191, 0.445); margin: 10px 5px; padding: 5px;width: 50px;}
+
+ .contenedor3{
+    background-color: yellowgreen;
+    display: flex;
+    
+    flex-flow: row wrap-reverse;
+ }
+ .contenedor3 div{background-color: rgb(226, 164, 164); margin: 10px 5px; padding: 5px;width: 50px;} 
